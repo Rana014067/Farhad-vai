@@ -1,6 +1,6 @@
 module.exports.config = {
   name: "prefix",
-  version: "1.0.0",module.exports.config
+  version: "1.0.0",
   hasPermssion: 0,
   credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
   description: "given prefix detail",
@@ -26,7 +26,7 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
 const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (data.PREFIX == null) {
         return out(`This Is My Prefix ⇉ [ ${prefix} ]\n\n𝐎𝐖𝐍𝐄𝐑:- ☞𝐅𝑨𝑅H𝐀𝐃 𝐔𝐝𝐝𝐼𝑵 × ☆𝐀𝐁𝐇𝐑𝐀𝐍𝐈𝐋☆\n\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 100041336504284\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝:- ☞ www.facebook.com/100041336504284\n
-For Any Kind Of Help Contact On massager×✓ m.me/100041336504284 😇`)
+For Any Kind Of Help Contact On massager×✓ m.me/𝐅𝑨𝑅H𝐀𝐃 𝐔𝐝𝐝𝐼𝑵 😇`)
       }
       else return out('️️️️️️️️️️️️️️️️️️️️️️️️️️️This Is My Prefix ⇉ [ ${prefix} ]  \n\n𝐎𝐖𝐍𝐄𝐑:- ☞𝐅𝑨𝑅H𝐀𝐃 𝐔𝐝𝐝𝐼𝑵 × ☆𝐀𝐁𝐇𝐑𝐀𝐍𝐈𝐋☆\n\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐅𝑨𝑅H𝐀𝐃 𝐔𝐝𝐝𝐼𝑵\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝:- ☞ www.facebook.com/100041336504284\nFor Any Kind Of Help Contact On massager×✓ m.me/100041336504284 ' + data.PREFIX)
     }
@@ -36,4 +36,4 @@ For Any Kind Of Help Contact On massager×✓ m.me/100041336504284 😇`)
 
 module.exports.run = async({ event, api }) => {
     return api.sendMessage("error", event.threadID)
-}
+             }
